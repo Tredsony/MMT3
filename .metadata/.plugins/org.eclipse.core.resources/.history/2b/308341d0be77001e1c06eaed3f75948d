@@ -1,0 +1,13 @@
+Feature: Hotel Booking In Adactin Application 
+
+Scenario: Login Should be success 
+	Given user Launch The URL Adactin Web Application 
+	And user Enter The Username In Username Field 
+	And user Enter The Password In Password Field 
+	When  user Click the Login Button 
+	Then  Login Should be Success 
+	
+Scenario: Search The Hotel 
+	When user Click The Location And Select The London Location 
+	And user Click The Hotels And Select The Hotel Creek 
+	And user Click The Room Type And Select The Deluxe

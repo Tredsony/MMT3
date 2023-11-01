@@ -1,0 +1,33 @@
+package com.adactin.runner;
+
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="")
+public class runnerclass {
+
+	public static WebDriver driver;
+	
+	public static void Browser(){
+		
+	WebDriverManager.chromedriver().setup();
+	
+	driver=new ChromeDriver();
+	
+	driver.manage().window().maximize();
+	}
+	private void close() {
+	
+	driver.close();
+	
+		
+
+	}
+	
+}

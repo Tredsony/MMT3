@@ -1,0 +1,56 @@
+package com.adactin.stepdefinition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.adactin.runner.runnerclass;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class stepdefinition {
+	public static WebDriver driver=runnerclass.driver;
+	
+	
+	
+	@Given("^user Launch The URL Adactin Web Application$")
+	public void user_Launch_The_URL_Adactin_Web_Application() throws Throwable {
+		driver.get("https://adactinhotelapp.com/");
+	}
+
+	@Given("^user Enter The Username In Username Field$")
+	public void user_Enter_The_Username_In_Username_Field() throws Throwable {
+		WebElement user = driver.findElement(By.xpath("//input[@id='username']"));
+		user.sendKeys("sonysebaa88");
+		}
+
+	@Given("^user Enter The Password In Password Field$")
+	public void user_Enter_The_Password_In_Password_Field() throws Throwable {
+		WebElement passw = driver.findElement(By.xpath("//input[@id='password']"));
+		passw.sendKeys("Tiger123");
+	}
+
+	@When("^user Click the Login Button$")
+	public void user_Click_the_Login_Button() throws Throwable {
+	}
+
+	@Then("^Login Should be Success$")
+	public void login_Should_be_Success() throws Throwable {
+	}
+
+	@When("^user Click The Location And Select The London Location$")
+	public void user_Click_The_Location_And_Select_The_London_Location() throws Throwable {
+	}
+
+	@When("^user Click The Hotels And Select The Hotel Creek$")
+	public void user_Click_The_Hotels_And_Select_The_Hotel_Creek() throws Throwable {
+	}
+
+	@When("^user Click The Room Type And Select The Deluxe$")
+	public void user_Click_The_Room_Type_And_Select_The_Deluxe() throws Throwable {
+	}
+
+
+}

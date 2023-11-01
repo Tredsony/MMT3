@@ -1,0 +1,27 @@
+package com.adactin.runner;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class runnerclass {
+
+	public static WebDriver driver;
+	
+	public static void Browser(){
+		
+	WebDriverManager.chromedriver().setup();
+	
+	driver=new ChromeDriver();
+	
+	driver.manage().window().maximize();
+	
+		
+	}
+	
+	{
+		
+		WebDriverManager.chromedriver().setup();	
+	}
+}

@@ -1,0 +1,109 @@
+package com.adactin.stepdefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class stepdefinition {
+	@Given("^user Launch the Url in Adactin Web Appliction$")
+	public void user_Launch_the_Url_in_Adactin_Web_Appliction() throws Throwable {
+	}
+
+	@When("^user Enter the Username in Username Field$")
+	public void user_Enter_the_Username_in_Username_Field() throws Throwable {
+	}
+
+	@When("^user Enter the Password in Password Field$")
+	public void user_Enter_the_Password_in_Password_Field() throws Throwable {
+	}
+
+	@Then("^user click the Login Button And It Navigate To Search Hotel Page$")
+	public void user_click_the_Login_Button_And_It_Navigate_To_Search_Hotel_Page() throws Throwable {
+	}
+
+	@When("^user Select the Hotel Location in Location dropdown$")
+	public void user_Select_the_Hotel_Location_in_Location_dropdown() throws Throwable {
+	}
+	@When("^user Select the Hotel  in hotel dropdown$")
+	public void user_Select_the_Hotel_in_hotel_dropdown() throws Throwable {
+	}
+
+	@When("^user Select the Roomtype in Room-Type dropdown$")
+	public void user_Select_the_Roomtype_in_Room_Type_dropdown() throws Throwable {
+	}
+
+	@When("^user Select Number Of Rooms  in Number Of Rooms dropdown$")
+	public void user_Select_Number_Of_Rooms_in_Number_Of_Rooms_dropdown() throws Throwable {
+	}
+
+	@When("^user Enter the Check-In Date  in Check-In Date Field$")
+	public void user_Enter_the_Check_In_Date_in_Check_In_Date_Field() throws Throwable {
+	}
+
+	@When("^user Enter the Check-Out Date  in Check-Out Date Field$")
+	public void user_Enter_the_Check_Out_Date_in_Check_Out_Date_Field() throws Throwable {
+	}
+
+	@When("^user Select the how many Adults per room in Adults per Room dropdown$")
+	public void user_Select_the_how_many_Adults_per_room_in_Adults_per_Room_dropdown() throws Throwable {
+	}
+
+	@When("^user Select the how many Child per room in Child per Room dropdown$")
+	public void user_Select_the_how_many_Child_per_room_in_Child_per_Room_dropdown() throws Throwable {
+	}
+
+	@Then("^user Click the Search Button And It Navigate To Select Hotel Page$")
+	public void user_Click_the_Search_Button_And_It_Navigate_To_Select_Hotel_Page() throws Throwable {
+	}
+
+	@When("^user Click the Hotel in Hotel name Radio Button$")
+	public void user_Click_the_Hotel_in_Hotel_name_Radio_Button() throws Throwable {
+	}
+
+	@Then("^user Click the Contine Button And It Navigate to Book A Hotel Page$")
+	public void user_Click_the_Contine_Button_And_It_Navigate_to_Book_A_Hotel_Page() throws Throwable {
+	}
+
+	@When("^user Enter the Firstname in the Firstname Field$")
+	public void user_Enter_the_Firstname_in_the_Firstname_Field() throws Throwable {
+	}
+
+	@When("^user Enter the Lastname in the Lastname Field$")
+	public void user_Enter_the_Lastname_in_the_Lastname_Field() throws Throwable {
+	}
+
+	@When("^user Enter the Address in the Address Field$")
+	public void user_Enter_the_Address_in_the_Address_Field() throws Throwable {
+	}
+
+	@When("^user Enter the Credit card Number in Credit card Number Field$")
+	public void user_Enter_the_Credit_card_Number_in_Credit_card_Number_Field() throws Throwable {
+	}
+
+	@When("^user Select the Credit Card Type in Credit Card Type Dropdown$")
+	public void user_Select_the_Credit_Card_Type_in_Credit_Card_Type_Dropdown() throws Throwable {
+	}
+
+	@When("^user Select the Expiry Month and Year in the Expiry Month and Year Dropdown$")
+	public void user_Select_the_Expiry_Month_and_Year_in_the_Expiry_Month_and_Year_Dropdown() throws Throwable {
+	}
+
+	@When("^user Enter the CVV Number in CVV number Field$")
+	public void user_Enter_the_CVV_Number_in_CVV_number_Field() throws Throwable {
+	}
+
+	@Then("^user Click Book Now Button And It Navigate to Booking Confirmation Page$")
+	public void user_Click_Book_Now_Button_And_It_Navigate_to_Booking_Confirmation_Page() throws Throwable {
+	}
+
+	@When("^user Check the Booking Details in the Booking Confirmation Page$")
+	public void user_Check_the_Booking_Details_in_the_Booking_Confirmation_Page() throws Throwable {
+	}
+
+	@Then("^user Click the Logout Button And It Navigate to logout page$")
+	public void user_Click_the_Logout_Button_And_It_Navigate_to_logout_page() throws Throwable {
+	}
+
+	
+	
+}

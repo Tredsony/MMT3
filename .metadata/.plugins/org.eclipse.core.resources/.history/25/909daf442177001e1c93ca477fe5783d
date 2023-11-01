@@ -1,0 +1,16 @@
+package com.adactin.runner;
+
+import org.openqa.selenium.WebDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class runnerclass {
+
+	public static WebDriver driver;
+	
+	private void Browser()
+	{
+		
+		WebDriverManager.chromedriver().setup();	
+	}
+}
